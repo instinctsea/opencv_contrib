@@ -21,7 +21,10 @@ Here is the CMake command for you:
 $ cd <opencv_build_directory>
 $ cmake -DOPENCV_EXTRA_MODULES_PATH=<opencv_contrib>/modules <opencv_source_directory>
 $ make -j5
-```
+example:
+cd opencv
+cd build
+cmake -DOPENCV_EXTRA_MODULES_PATH="d:\rpa\deep learning\opencv_contrib-3.4.3\modules" ../sources```
 
 As the result, OpenCV will be built in the `<opencv_build_directory>` with all
 modules from `opencv_contrib` repository. If you don't want all of the modules,
